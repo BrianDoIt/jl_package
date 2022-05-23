@@ -12,6 +12,6 @@ class Calculator {
 }
 
 String formatCurrentDateTime(DateTime now) {
-  final f = DateFormat('yyyy-MM-dd hh:mm:ss');
+  final f = DateFormat('yyyy-MM-dd HH:mm:ss');
   return f.format(now);
 }
